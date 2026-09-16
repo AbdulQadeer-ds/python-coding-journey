@@ -1,5 +1,5 @@
-tple=()
-for i in range(6):
-    nh=int(input("enter a namber:,"))
-    tple=tple+(nh,)
+lst=[]
+for i in range(7):
+    lst.append(int(input("enter a namber")))
+tple=tuple(lst)
 print(tple)
