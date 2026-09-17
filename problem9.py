@@ -1,4 +1,10 @@
-User_info={"name":"Abdul Qadeer","age":"78","gender":"male"}
-print(User_info)
-User_info.update({"name":"Abdullah"})
-print(User_info)
+
+# put in to the equaiton 
+# dispaly result to user
+
+a = int(input("Enter a number"))
+b = int(input("Enter b number"))
+c = int(input("Enter c number"))
+
+result = (a+b+c)*(a/b)*(2*a+3*b)
+print("Result is = "+str(result))
