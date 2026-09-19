@@ -15,3 +15,14 @@ s = 0
 for i in lst:
     s += i
 print("Sum of number in the list "+str(s))
+
+#practice 1
+lst=[]
+for i in range(6):
+    lst.append(int(input("enter a number")))
+print("this is the list")
+print(lst)
+s=0
+for i in lst:
+    s+=i
+print(s)
