@@ -1,0 +1,48 @@
+# get 5 number from the user
+# store in the array and display 
+# find their sum 
+
+import array as arr
+
+a = arr.array('i',[])
+s = 0
+for i in range(5):#0 to 4 
+    a.append(int(input("Enter a number to store in the array")))
+for j in range(5):#0 to 4 
+    print(a[j])
+    s += a[j] # 2,3,4,5,6,7
+print("Sum of the number is = "+str(s))
+
+
+
+fruits=["apple","banana","cherry"]
+fruits.append("orange")
+fruits[1]="grapes"
+fruits.remove("cherry")
+print(fruits)
+
+
+scoure=arr.array('i',[54,4,43,54])
+scoure.append(54)
+scoure.insert(1,543)
+scoure.pop(0)
+scoure.reverse()
+scoure.index(4)
+possition=scoure.index(54)
+scoure[3]=900
+new_scoure=arr.array('i',[54,65,54,54666,444,])
+scoure.extend(new_scoure)
+slice_array=scoure[0:5]
+print(scoure)
+print(possition)
+print(slice_array)
+
+coure=arr.array('i',[54,4,43,54])
+slice_array=coure[0:3]
+print(slice_array)
+
+
+
+
+
+
