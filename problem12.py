@@ -33,13 +33,24 @@ scoure[3]=900
 new_scoure=arr.array('i',[54,65,54,54666,444,])
 scoure.extend(new_scoure)
 slice_array=scoure[0:5]
+
 print(scoure)
 print(possition)
 print(slice_array)
+element_size=scoure.itemsize
+print(element_size)
 
 coure=arr.array('i',[54,4,43,54])
 slice_array=coure[0:3]
 print(slice_array)
+
+
+
+nums=arr.array('i',[3,34,55,43,6,54,56,65,76,5435])
+element_size=nums.itemsize
+print(nums)
+
+
 
 
 
