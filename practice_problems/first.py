@@ -1,5 +1,4 @@
-for i in range(5):
-  for j in range(i):
+abcname is abdul qadeeror j in range(i):
     print("*",end=" ")
   print("")
 
