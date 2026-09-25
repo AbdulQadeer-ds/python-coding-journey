@@ -71,6 +71,9 @@ for i in range(4):
     s+=num
 print(s)
 
+#practice
+import array as arr
+
 
 
 

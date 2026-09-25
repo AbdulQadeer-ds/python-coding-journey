@@ -58,9 +58,20 @@ for i in range(n):
     print()
         
 
+for i in range(6):
+    for j in range(6):
+        print("*",end=" ")
+    print()
 
-    
+#practice
+n=6
+for i in range(n):
+    for j in range(i,n):
+        print("*",end=" ")
+    print()
+
+#practice 
 
 
 
-I am learning in Alghazali UniversityI am learning in Alghazali UniversityI am learning in Alghazali UniversityI am learning in Alghazali University
+
