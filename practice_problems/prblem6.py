@@ -17,4 +17,19 @@ for i in range(6):
         s+=i
         print("sum is:",s)
 
-        
+#practice 
+lst=[]
+for i in range(6):
+    lst.append(int(input("enter a namber:")))
+    s=0
+    for i in lst:
+        s+=i
+        print("sum:",s)
+
+
+#practice 2
+lst=[]
+for i in range(6):
+    lst.append(int(input("Enter a namber:")))
+    print(lst)
+
