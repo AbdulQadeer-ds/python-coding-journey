@@ -16,3 +16,5 @@ for i in range(6):
     for i in lst:
         s+=i
         print("sum is:",s)
+
+        
