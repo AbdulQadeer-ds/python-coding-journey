@@ -38,3 +38,14 @@ for i in tple:
     s+=i
 print("sum of the tple",str(tple))
 
+#practice
+lst=[]
+for i in range(5):
+    lst.append(int(input("Enter a namber:")))
+tple=tuple(lst)
+s=0
+for i in tple:
+    s+=i
+print("sum of the tple",str(tple))
+
+
