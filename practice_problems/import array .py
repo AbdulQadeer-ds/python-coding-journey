@@ -1,7 +1,5 @@
 import array as arr
-
-
-'''scoure=arr.array('i',[54,4,43,54])
+scoure=arr.array('i',[54,4,43,54])
 scoure.append(54)
 scoure.insert(1,543)
 scoure.pop(0)
@@ -27,7 +25,7 @@ print(slice_array)
 
 nums=arr.array('i',[3,34,55,43,6,54,56,65,76,5435])
 element_size=nums.itemsize
-print(nums)#'''
+print(nums)
 
 nums=arr.array('i',[4,54,64,35,64,64,43,6,777,55,])
 nums.append(666)
