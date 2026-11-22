@@ -11,3 +11,5 @@ for i in range(7):
         m=num
 print("Maximum element in the array is:", m)
 print("Sum of the array elements is:", s)
+
+#practice
