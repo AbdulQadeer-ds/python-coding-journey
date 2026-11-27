@@ -11,3 +11,20 @@ def Ave_cal(a,b,c):
      print(Ave)
 
 Ave_cal(34,56,67)
+
+#practice
+students=["ahmad","kareem","noman"]
+def students_list(file):
+     for students in file:
+          print(students,end=" ")
+students_list(students)
+
+
+#practice
+User_Name=input("enter user name")
+def User_name(user):
+     User_Name.isalpha()
+     print(User_Name)
+User_name(User_Name)
+
+#practice
